@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+:root{
+    --lm-bg: #f6f8ff;
+    --lm-bg-content: #fefefe;
+    --lm-text: #4b6a9b;
+    --lm-text-alt: #2b3442;
+    --lm-shadow: 0px  16px 30px -10px rgba(70, 96, 187, 0.2); 
+    --lm-shadow-inactive:  0px 16px 30px -10px rgba(0, 0, 0, 0.2);
+    --lm-icon-bg: brightness(100%);
+
+    --btn: #0079ff;
+    --btn-hover: #60abff;
+}
+
+body{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(140, 82, 201);
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 16px;
+    border-radius: 60px 10px 60px 10px;
+    box-shadow: 5px 10px 10px rosybrown;
+}
+
+.title{
+    color: gold;
+    text-align: center;
+    font-size: 3rem;
+}
+
+p{
+    font-size: 60px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    font-size: 1.679rem;
+     padding: 9px;
+     border-radius: 8px;
+     margin: 1rem;
+     color: white;
+     cursor: pointer;
+}
+
+.btn-start{
+    background-color: green;
+}
+.btn-stop{
+    background-color: red;
+}
+.btn-reset{
+  background-color: blue;
+}
+
+#seconds{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-left: 13rem;
+   font-size: 23px;
+   padding: 16px 12px;
+}
+
+ #minutes{
+    display: flex;
+     flex-direction: row;
+    align-items: center;
+   justify-content: center;
+    margin-top: -3rem;
+    font-size: 23px;
+}  
+
+#hours{
+    display: flex;
+    flex-direction: row;
+    margin-top: -23px;
+    padding-left: 2rem;
+    font-size: 23px;
+}
